@@ -1,0 +1,128 @@
+{
+    "experiments": [
+        {
+            "name": "100k-u1xu1", 
+            "sep": "\t", 
+            "test_path": "ml-100k/u1.test", 
+            "item_path": "ml-100k/u.item", 
+            "configs": [
+                {
+                    "epochs": 100, 
+                    "ks": [
+                        1
+                    ], 
+                    "l_v": [
+                        0.0005
+                    ], 
+                    "name": "item_100k_u1_e100_b10_nh100", 
+                    "decay": 0.0002, 
+                    "momentums": [
+                        0.5, 
+                        0.6
+                    ], 
+                    "l_h": [
+                        0.0005
+                    ], 
+                    "number_hidden": 100, 
+                    "batch_size": 10, 
+                    "l_w": [
+                        0.0005
+                    ]
+                },
+                {
+                    "epochs": 100, 
+                    "ks": [
+                        1
+                    ], 
+                    "l_v": [
+                        0.0005
+                    ], 
+                    "name": "item_100k_u1_e100_b10_nh50", 
+                    "decay": 0.0002, 
+                    "momentums": [
+                        0.5, 
+                        0.6
+                    ], 
+                    "l_h": [
+                        0.0005
+                    ], 
+                    "number_hidden": 50, 
+                    "batch_size": 10, 
+                    "l_w": [
+                        0.0005
+                    ]
+                },
+                {
+                    "epochs": 100, 
+                    "ks": [
+                        1
+                    ], 
+                    "l_v": [
+                        0.0005
+                    ], 
+                    "name": "item_100k_u1_e100_b10_nh15", 
+                    "decay": 0.0002, 
+                    "momentums": [
+                        0.5, 
+                        0.6
+                    ], 
+                    "l_h": [
+                        0.0005
+                    ], 
+                    "number_hidden": 15, 
+                    "batch_size": 10, 
+                    "l_w": [
+                        0.0005
+                    ]
+                },
+                {
+                    "epochs": 100, 
+                    "ks": [
+                        1
+                    ], 
+                    "l_v": [
+                        0.0005
+                    ], 
+                    "name": "item_100k_u1_e100_b10_nh10", 
+                    "decay": 0.0002, 
+                    "momentums": [
+                        0.5, 
+                        0.6
+                    ], 
+                    "l_h": [
+                        0.0005
+                    ], 
+                    "number_hidden": 10, 
+                    "batch_size": 10, 
+                    "l_w": [
+                        0.0005
+                    ]
+                },
+                {
+                    "epochs": 100, 
+                    "ks": [
+                        1
+                    ], 
+                    "l_v": [
+                        0.0005
+                    ], 
+                    "name": "item_100k_u1_e100_b10_nh5", 
+                    "decay": 0.0002, 
+                    "momentums": [
+                        0.5, 
+                        0.6
+                    ], 
+                    "l_h": [
+                        0.0005
+                    ], 
+                    "number_hidden": 5, 
+                    "batch_size": 10, 
+                    "l_w": [
+                        0.0005
+                    ]
+                }
+            ], 
+            "train_path": "ml-100k/u1.base"
+        }
+    ]
+}
