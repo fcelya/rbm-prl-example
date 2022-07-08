@@ -436,7 +436,7 @@ def run(name, dataset, user_info, movie_info, config, all_users, all_movies, all
     for row in r:
         for _i in range(len(all_genres)):
         #    movie_genres[len(all_genres) * all_movies.index(movie_id) + _i] = int(row[5+_i])
-        pass
+            pass
 
     print("Movie genres loaded")
 
